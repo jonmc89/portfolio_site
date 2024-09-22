@@ -1,0 +1,55 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: "Rubik", Arial, Helvetica, sans-serif;
+}
+
+/* Nav Bar Normal */
+
+.header__main{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  color: #018b60;
+  border-bottom: 0.4em solid #018b60;
+}
+
+.site__title{
+  padding: 0 5px;
+}
+
+.nav__list{
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+}
+
+
+/* Nav Items Text */
+
+.list__item{
+  text-decoration: none;
+  padding:5px 15px;
+  color: #018b60;
+  transition: 0.1s ease-in;
+  text-align: center;
+}
+
+.list__item:hover{
+  color:#00ba7f;
+  border-bottom: 2px solid #018b60;
+  border-radius: 4px;
+  
+}
+
+.list__item:active{
+  color: #7878fa;
+}
+
+/* Nav Items Icon */

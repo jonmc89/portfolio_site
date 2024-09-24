@@ -19,6 +19,7 @@ body {
   align-items: center;
   padding: 10px;
   color: #018b60;
+  background-color: #fff;
   border-bottom: 0.4em solid #018b60;
 }
 
@@ -46,6 +47,7 @@ body {
 
 .list__item:hover {
   color: #00ba7f;
+  cursor: pointer;
 }
 
 .list__item:active {
@@ -71,40 +73,101 @@ body {
   color: #00ba7f;
 }
 
+/* Footer */
+footer{
+  border-top: 0.3em solid #018b60;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+footer p{
+  padding: 10px;
+}
+
 /*About Me */
 
-.about__container {
+.about__container{
   position: relative;
-  top: 200px;
-  height: 400px;
-  width: 100%;
   display: flex;
-  justify-content: space-evenly;
-  background-color: #7878fa;
-}
-
-.about__image {
-  padding: 15px;
-  width: 30%;
-  display: flex;
+  flex-direction: column;
   justify-content: center;
-  align-items: center;
+  margin: 0 auto;
+  height: 550px;
+  width: 80%;
 }
 
-.pic__jon {
+.about__content{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.about__content p{
+  padding: 15px;
+  margin-left: 20px;
+}
+
+.about__image{
   border-radius: 50%;
 }
-
-.about__text {
+.about__icons__container{
+  width: 100%;
+  height: 80px;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 15px;
-  width: 50%;
-  font-size: 1.5rem;
-  font-style: italic;
-  color: #018b60;
+  margin-top: 20px;
+  
 }
+
+.about__icons__container i{
+  font-size: 6rem;
+  padding: 0 10px;
+  color: #018b60;
+  margin: 0 30px;
+}
+
+.fa-html5{
+  transition:  .3s ease-in-out;
+}
+
+.fa-html5:hover{
+  transform: scale(1.2);
+  color :#e34c26;
+}
+
+.fa-css3-alt{
+  transition:  .3s ease-in-out;
+}
+
+.fa-css3-alt:hover{
+  transform: scale(1.2);
+  color :#2965f1;
+}
+
+.fa-js{
+  transition:  .3s ease-in-out;
+}
+
+.fa-js:hover{
+  transform: scale(1.2);
+  color :#f0db4f;
+}
+
+.fa-react{
+  transition:  .3s ease-in-out;
+}
+
+.fa-react:hover{
+  transform: scale(1.2);
+  color :#04d8f9;
+}
+
+
+
+
+
 
 /* Media Queries */
 

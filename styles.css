@@ -21,6 +21,7 @@ body {
   color: #018b60;
   background-color: #fff;
   border-bottom: 0.4em solid #018b60;
+  z-index: 99;
 }
 
 .site__title {

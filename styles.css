@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family: "Pixelify Sans", Arial, Helvetica, sans-serif;
+  font-family: 'Pixelify Sans', Arial, Helvetica, sans-serif;
 }
 
 /* Nav Bar Normal */
@@ -19,7 +19,7 @@ body {
   align-items: center;
   padding: 10px;
   color: #018b60;
-  background-color: #fff;
+  background-color: #018b60;
   border-bottom: 0.4em solid #018b60;
   z-index: 99;
 }
@@ -27,7 +27,7 @@ body {
 .site__title {
   padding: 0 5px;
   text-decoration: none;
-  color: #018b60;
+  color: #fff;
 }
 
 .nav__list {
@@ -41,13 +41,14 @@ body {
 .list__item {
   text-decoration: none;
   padding: 5px 15px;
-  color: #018b60;
+  color: #ffffff;
   transition: 0.1s ease-in;
   text-align: center;
+  font-size: 1.2rem;
 }
 
 .list__item:hover {
-  color: #00ba7f;
+  color: #000000;
   cursor: pointer;
 }
 
@@ -78,12 +79,17 @@ body {
 footer {
   border-top: 0.3em solid #018b60;
   display: flex;
+  background-color: #018b60;
   align-items: center;
   justify-content: center;
   margin: 0 auto;
   width: 100%;
   box-sizing: border-box;
   height: 10vh;
+  color: #fff;
+  font-size: 1.5rem;
+  height: 60px;
+  margin-top: 20px;
 }
 
 /*About Me */
@@ -94,7 +100,7 @@ footer {
   flex-direction: column;
   justify-content: center;
   margin: 0 auto;
-  height: 90vh;
+  height: 91vh;
   width: 80%;
 }
 
@@ -108,7 +114,7 @@ footer {
 .about__content p {
   padding: 15px;
   margin-left: 20px;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
 }
 
 .about__image {
@@ -130,6 +136,8 @@ footer {
   margin: 0 30px;
   margin-top: 120px;
 }
+
+/* Nav Icons */
 
 .fa-html5 {
   transition: 0.3s ease-in-out;
@@ -165,6 +173,26 @@ footer {
 .fa-react:hover {
   transform: scale(1.2);
   color: #04d8f9;
+}
+
+/* Contact Page */
+
+.contact__container {
+  height: 91vh;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact__content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact__form {
+  display: flex;
+  flex-direction: column;
 }
 
 /* Media Queries */

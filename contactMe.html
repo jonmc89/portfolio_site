@@ -18,7 +18,7 @@
   </head>
   <body>
     <header class="header__main">
-      <a href="index.html" class="site__title"><h2>My Blog Site</h2></a>
+      <a href="index.html" class="site__title"><h2>My Portfolio</h2></a>
       <div class="navbar">
         <ul class="nav__list">
           <li><a href="index.html" class="list__item">Home</a></li>
@@ -34,11 +34,17 @@
         <div class="contact__form__container">
           <form class="contact__form" action="">
             <label class="form__label" for="name">Name</label>
-            <input class="form__input" name="name" type="text" />
+            <input class="form__input" id="name" name="name" type="text" />
             <label class="form__label" for="email">Email</label>
-            <input class="form__input" name="email" type="email" />
+            <input class="form__input" id="email" name="email" type="email" />
             <label class="form__label" for="message">Your Message</label>
-            <textarea class="form__message" name="" id="" rows="8"></textarea>
+            <textarea
+              class="form__message"
+              id="message"
+              name="message"
+              rows="8"
+            ></textarea>
+
             <input class="form__submit" type="submit" />
           </form>
         </div>
@@ -53,7 +59,7 @@
       </div>
     </div>
     <footer>
-      <p>2024</p>
+      <p>&copy; 2024</p>
     </footer>
     <script src="script.js"></script>
   </body>

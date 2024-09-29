@@ -1,33 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Blog Site</title>
-  <link rel="stylesheet" href="styles.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
-  <script src="https://kit.fontawesome.com/d4691f768e.js" crossorigin="anonymous"></script>
-</head>
-<body>
-  <header class="header__main">
-    <a href="#" class="site__title"><h2 >My Blog Site</h2></a>
-    <div class="navbar__icon">
-      <ul class="nav__list">
-        <li><a href="#" class="list__item__icon"><i class="fa-solid fa-address-card"></i></a></li>
-        <li><a href="#" class="list__item__icon"><i class="fa-solid fa-diagram-project"></i></a></li>
-        <li><a href="#" class="list__item__icon"><i class="fa-solid fa-envelope"></i></a></li>
-      </ul>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Blog Site</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/d4691f768e.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header class="header__main">
+      <a href="index.html" class="site__title"><h2>My Blog Site</h2></a>
+      <div class="navbar">
+        <ul class="nav__list">
+          <li><a href="index.html" class="list__item">Home</a></li>
+          <li>
+            <a href="currentProjects.html" class="list__item"
+              >Current Projects</a
+            >
+          </li>
+          <li><a href="contactMe.html" class="list__item">Contact Me</a></li>
+        </ul>
+      </div>
+    </header>
+    <div class="about__container">
+      <div class="about__content">
+        <img
+          src="Images/undraw_hacker_mind_-6-y85.svg"
+          alt="picture of jon"
+          width="400"
+          height="400"
+          class="about__image"
+        />
+        <p>
+          <strong>Welcome to My Portfolio</strong>
+          <br />
+          <br />
+          Explore a curated collection of my best work, showcasing my skills and
+          creativity.
+          <br />
+          <br />
+          From innovative design projects to successful marketing campaigns,
+          this portfolio highlights my journey and achievements. Dive in to see
+          how I bring ideas to life and deliver impactful results.
+          <br />
+          <br />
+          If you are interested in any of my services drop me a
+          <a class="about__message__link" href="contactMe.html">message!</a>
+        </p>
+      </div>
+      <div class="about__icons__container">
+        <i class="fa-brands fa-html5"></i>
+        <i class="fa-brands fa-css3-alt"></i>
+        <i class="fa-brands fa-js"></i>
+        <i class="fa-brands fa-react"></i>
+      </div>
     </div>
-    <div class="navbar">
-      <ul class="nav__list">
-        <li><a href="aboutMe.html" class="list__item">About Me</a></li>
-        <li><a href="currentProjects.html" class="list__item">Current Projects</a></li>
-        <li><a href="#" class="list__item">Contact Me</a></li>
-      </ul>
-    </div>
-  </header>
-  <script src="script.js"></script>
-</body>
+    <footer>
+      <p>2024</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
 </html>

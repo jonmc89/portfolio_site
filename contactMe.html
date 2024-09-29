@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
       rel="stylesheet"
     />
     <script
@@ -19,32 +19,11 @@
   <body>
     <header class="header__main">
       <a href="index.html" class="site__title"><h2>My Blog Site</h2></a>
-      <div class="navbar__icon">
-        <ul class="nav__list">
-          <li>
-            <a href="#" class="list__item__icon"
-              ><i class="fa-solid fa-address-card"></i
-            ></a>
-          </li>
-          <li>
-            <a href="#" class="list__item__icon"
-              ><i class="fa-solid fa-diagram-project"></i
-            ></a>
-          </li>
-          <li>
-            <a href="#" class="list__item__icon"
-              ><i class="fa-solid fa-envelope"></i
-            ></a>
-          </li>
-        </ul>
-      </div>
       <div class="navbar">
         <ul class="nav__list">
-          <li><a href="aboutMe.html" class="list__item">About Me</a></li>
+          <li><a href="index.html" class="list__item">Home</a></li>
           <li>
-            <a href="currentProjects.html" class="list__item"
-              >Current Projects</a
-            >
+            <a href="#" class="list__item">Current Projects</a>
           </li>
           <li><a href="#" class="list__item">Contact Me</a></li>
         </ul>
@@ -54,12 +33,13 @@
       <div class="contact__content">
         <div class="contact__form__container">
           <form class="contact__form" action="">
-            <label for="name">Name:</label>
-            <input name="name" type="text" />
-            <label for="email">Email:</label>
-            <input name="email" type="email" />
-            <label for="message">Your Message:</label>
-            <textarea name="" id=""></textarea>
+            <label class="form__label" for="name">Name</label>
+            <input class="form__input" name="name" type="text" />
+            <label class="form__label" for="email">Email</label>
+            <input class="form__input" name="email" type="email" />
+            <label class="form__label" for="message">Your Message</label>
+            <textarea class="form__message" name="" id="" rows="8"></textarea>
+            <input class="form__submit" type="submit" />
           </form>
         </div>
         <div class="contact__image">

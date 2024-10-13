@@ -205,6 +205,15 @@ footer p {
   padding: 50px;
 }
 
+.contact__image img {
+  border-radius: 15px;
+}
+
+.contact__message {
+  width: 200px;
+  text-align: center;
+}
+
 .form__label {
   font-size: 1.5rem;
   padding: 5px;

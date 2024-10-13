@@ -252,6 +252,7 @@ footer p {
 
 /* Media Queries */
 
+/*Mobile Portrait */
 @media screen and (max-width: 480px) {
   .header__main {
     width: 100%;
@@ -309,6 +310,21 @@ footer p {
 
   footer p {
     font-size: 1rem;
+  }
+}
+
+/* Mobile Landscape */
+@media screen and (max-width: 935px) {
+  .about__container {
+    height: 700px;
+  }
+
+  .about__content {
+    margin-bottom: 50px;
+  }
+  .about__icons__container {
+    display: flex;
+    margin-bottom: 50px;
   }
 }
 

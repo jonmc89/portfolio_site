@@ -321,27 +321,3 @@ footer p {
     font-size: 1rem;
   }
 }
-
-/* Mobile Landscape */
-@media screen and (max-width: 935px) {
-  .about__container {
-    height: 700px;
-  }
-
-  .about__content {
-    margin-bottom: 50px;
-  }
-  .about__icons__container {
-    display: flex;
-    margin-bottom: 50px;
-  }
-}
-
-@media screen and (min-width: 481px) and (max-width: 768px) {
-}
-
-@media screen and (min-width: 769px) and (max-width: 1279px) {
-}
-
-@media screen and (min-width: 1280px) {
-}
